@@ -5,7 +5,7 @@ let bannerPosInfo = banner.getBoundingClientRect();
 
 let pos = stringPosInfo.left;
 setInterval(() => {
-    console.log(bannerString.style.left.substr(0, bannerString.style.left.length - 2) + "|" + bannerPosInfo.width);
+    //console.log(bannerString.style.left.substr(0, bannerString.style.left.length - 2) + "|" + bannerPosInfo.width);
     if(bannerString.style.left.substr(0, bannerString.style.left.length - 2) > bannerPosInfo.width - stringPosInfo.width) {
         pos = -stringPosInfo.width;
     }
