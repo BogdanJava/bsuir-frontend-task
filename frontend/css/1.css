@@ -29,6 +29,11 @@
     cursor: pointer;
     border-radius: 5px;
     margin: 10px 0 0 50px;
+    transition: 1s;
+}
+
+.main__contact-button:hover {
+    background-color: rgb(255, 255, 255);
 }
 
 .contact-btn {
