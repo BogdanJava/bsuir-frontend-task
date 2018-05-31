@@ -77,3 +77,33 @@
     background: linear-gradient(to bottom right,#fff, #e4e0e0);
     color: #000;
 }
+
+.form__alert {
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    padding: 10px 70px;
+    border: 1px solid #0000002e;
+    border-radius: 13px;
+    display: none;
+    transition: 0.2s;
+}
+
+.form__alert_success {
+    background: #5768ec7a;
+    display: block;
+}
+
+.form__alert_error {
+    background: #d65555b0;
+    display: block;
+}
+
+.form__alert_header {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.form__alert_message {
+    font-size: 20px;
+}

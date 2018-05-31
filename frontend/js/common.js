@@ -11,3 +11,14 @@ setInterval(() => {
     }
     bannerString.style.left = ++pos + "px";
 }, 30);
+
+function goTo(page) {
+    let currLocation = window.location.href;
+    let parts = currLocation.split('/')
+    let newLocation = '';
+    for(let i = 0; i < parts.length - 1; i ++ ) {
+        newLocation += parts[i] + '/';
+    }
+    newLocation += `${page}`
+    window.location = newLocation
+}
