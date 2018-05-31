@@ -46,6 +46,7 @@
     width: 80%;
     height: 150px;
     font-size: 25px;
+    resize: none;
 }
 
 .form__control_input {
